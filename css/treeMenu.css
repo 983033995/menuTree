@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.menu_box{
+	width: 300px;
+	height: auto;
+	margin: 50px auto;
+	border: 1px solid #000000;
+}
+
+/*树状菜单主要css样式*/
+.folder{
+	width: 100%;
+	height: auto;
+}
+.folder .sark{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.folder .sark > span.icon_area{
+	margin: 0 10px;
+}
+.folder .sandwich{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.folder .sandwich > dl{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	overflow: hidden !important;
+}
+.folder .sandwich > dl dt{
+	font-size: 14px;
+	text-indent: 1em;
+	cursor: pointer;
+	position: relative;
+	height: 24px;
+	line-height: 24px;
+}
+.folder .sandwich > dl dt span.icon_area{
+	margin-right: 10px;
+}
+.folder dl dd{
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: visible !important;
+}
+.folder dl dd > div{
+	font-size: 11px;
+	text-indent: 1em;
+	height: 20px;
+	line-height: 20px;
+	position: relative;
+}	
+.vertical_line{
+	height: 100%;
+	border-right: 1px dashed #000000;
+	position: absolute;
+	top: -10px;
+	left: 15px;
+}		
+.dash{
+	width: 11px;
+	border-top: 1px dashed #000000;
+	position: absolute;
+	top: 51%;
+	left: 16px;
+}
+.vertical_line1{
+	height: 100%;
+	border-right: 1px dashed #000000;
+	position: absolute;
+	top: -9px;
+	left: -5px;
+}		
+.dash1{
+	width: 11px;
+	border-top: 1px dashed #000000;
+	position: absolute;
+	top: 50%;
+	left: -5px;
+}
+/*树状菜单主要css样式*/
